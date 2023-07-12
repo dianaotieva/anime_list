@@ -1,11 +1,13 @@
 .main {
     width: 100%;
-    /* background-image: url(./assets/backgr.png); */
+    background-image: url(./assets/gif.gif);
+    
+    background-position-x: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: contain;
     padding: 0 165px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
   }
 
@@ -39,18 +41,18 @@
     color: #5ca5a5;
   }
   .animes {
+    
     width: 100%;
-    margin-top: 40px;
+    padding-top: 148px;
     display: flex;
     flex-direction: column;
-    row-gap: 24px;
+    row-gap: 35px;
   }
 
   .anime{
-    /* background-image: url("assets/naruto_background.jpg"); */
     width: 100%;
     padding: 32px 40px;
-    /* background: #ffffff; */
+    background: #ffffff;
     box-shadow: 0px 15px 20px -5px rgba(71, 42, 238, 0.548);
     border-radius: 5px;
     display: flex;
@@ -61,6 +63,9 @@
   .info-header {
   display: flex;
   flex-direction: column;
+  /* width: 500px;
+  background-color: rgba(255, 255, 255, 0.355);
+  border-radius: 15px; */
   margin-top: 10px;
   row-gap: 5px;
 }
@@ -71,7 +76,7 @@
   border-radius: 12px;
   padding: 7px 8px 3px 8px;
   color: #9966cc;
-  margin-left: 15px;
+  /* margin-left: 15px; */
   font-family: 'Ysabeau SC', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -82,11 +87,12 @@
 }
 
 .ongoing {
+  background-color: rgba(0, 0, 0, 0.727);
   box-shadow: 10px 15px 20px -5px rgba(71, 42, 238, 0.249);
   border-radius: 12px;
   padding: 7px 8px 3px 8px;
   color: #c8a2c8;
-  margin-left: 8px;
+  /* margin-left: 10px; */
   font-family: 'Ysabeau SC', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -99,7 +105,7 @@
 
 .info-footer {
   display: flex;
-  /* column-gap: 18.5px; */
+  column-gap: 18.5px;
   margin-top: 10px;
 }
 
@@ -107,9 +113,19 @@
   font-family: 'Ysabeau SC', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 24px;
   letter-spacing: -0.138462px;
-  color: #b484c6bd;
+  /*  */
+}
+
+.original-name{
+  color: white;
+  font-weight: bold;
+}
+
+.info > span{
+  font-weight: bold;
+  /* color: #b484c6bd; */
 }
 

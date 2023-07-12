@@ -1,7 +1,7 @@
 [
 {
     "id": 1,
-    "background": "./assets/naruto_background.jpg",
+    "background": "/assets/naruto-back.jpeg",
     "name": "Naruto",
     "originalName": [],
     "logo": "/assets/naruto.png",
@@ -18,7 +18,7 @@
 },
 {
     "id": 2,
-    "background": [],
+    "background": "assets/shippuden_back.jpg",
     "name": "Naruto Shippuden",
     "originalName": [],
     "logo": "/assets/shippuden.png",
@@ -35,7 +35,7 @@
 },
 {
     "id": 3,
-    "background": [],
+    "background": "/assets/boruto-back.jpg",
     "name": "Boruto: Naruto Next Generation",
     "originalName": [],
     "logo": "/assets/boruto.png",
@@ -52,7 +52,7 @@
 },
 {
     "id": 4,
-    "background": [],
+    "background": "assets/onePiece-back.jpg",
     "name": "One Piece",
     "originalName": [],
     "logo": "/assets/onePiece.png",
@@ -69,7 +69,7 @@
 },
 {
     "id": 5,
-    "background": [],
+    "background": "/assets/demon-back.png",
     "name": "Demon Slayer",
     "originalName": "Kimetsu no Yaiba",
     "logo": "/assets/demonSlayer.png",
@@ -86,9 +86,9 @@
 },
 {
     "id": 6,
-    "background": [],
+    "background": "/assets/jujutsu-back.jpg",
     "name": "Sorcery Fight",
-    "originalName": "Jujutsu Kaisen",
+    "originalName": [],
     "logo": "/assets/jujutsu.png",
     "new": true,
     "artist": "Gege Akutami",
@@ -103,7 +103,7 @@
 },
 {
     "id": 7,
-    "background": [],
+    "background": "assets/attack-back.jpg",
     "name": "Attack On Titan",
     "originalName": "Shingeki no Kyojin",
     "logo": "/assets/attack.png",
